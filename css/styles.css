@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {outline:none; box-sizing:border-box}
+
+html {min-width:1158px}
+
+body {min-width:1158px; margin:0; padding:0; font:21px/28px Arial, sans-serif; color:#fff; background:#07243e; -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
+.fonts-loaded body {font-family:Gilroy, sans-serif}
+
+a {color:#ffc915}
+
+::-ms-clear {display:none}
+
+.wrapper {width:100%; min-width:1158px; position:relative; overflow:hidden; background:url(../images/bg.png) repeat-y center top}
+
+.container {max-width:1158px; margin:0 auto; padding:0 10px}
+.container::after {content:""; display:block; clear:both}
+
+.header {background:#fff; padding:24px 0 19px 0}
+.header-logo {float:left; line-height:0}
+.header-sep {float:left; margin:0 0 0 23px; width:1px; height:38px; background:#a9a9a9}
+.header-dns {float:left; line-height:0; margin:6px 0 0 23px}
+
+.slider {position:relative; font-size:0; line-height:0; letter-spacing:-1px; white-space:nowrap; color:#fff}
+.slider-item {display:inline-block; vertical-align:top; width:100%; white-space:normal}
+.slider-item-inner {height:739px; position:relative}
+.slider-item-bg {position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; background-size:cover}
+.slider-item-content {position:relative}
+
+.slider-1-content {float:right; padding:228px 0 0 0}
+.slider-1-title {line-height:0}
+.slider-1-subtitle {font-size:33px; line-height:33px; letter-spacing:0; padding:21px 0 0 0}
+.slider-1-gift-title {color:#ffc915; font-weight:600; font-size:38px; line-height:38px; letter-spacing:0; padding:50px 0 0 0}
+.slider-1-gift-price {color:#ffc915; font-weight:bold; font-size:25px; line-height:38px; letter-spacing:0; padding:18px 0 0 0}
+.slider-1-gift-price span {display:inline-block; vertical-align:top; height:40px; border:1px solid #ffc915; border-radius:20px; padding:0 16px}
+
+.slider-2-content {float:left; padding:148px 0 0 0}
+.slider-2-title {line-height:0}
+.slider-2-subtitle {font-size:31px; line-height:31px; letter-spacing:0.8px; font-weight:600; padding:36px 0 0 0}
+.slider-2-text {font-size:18px; line-height:18px; letter-spacing:0.9px; font-weight:500; padding:18px 0 24px 0}
+.slider-2-price {padding:10px 0 0 0}
+.slider-2-price::after {content:""; display:block; clear:both}
+.slider-2-price-props {float:left; width:164px; height:33px; margin:3px 0 0 0; border:1px solid #ffc813; text-align:center; font-size:25px; line-height:31px; letter-spacing:0; color:#ffc813}
+.slider-2-price-value {float:left; margin:0 0 0 15px; font-size:39px; line-height:39px; font-weight:600; letter-spacing:0; color:#ffc813}
+.slider-2-price-value span {font-size:23px}
+.slider-2-price-old {float:left; margin:16px 0 0 10px; font-size:21px; line-height:21px; letter-spacing:0; color:#b8b7b4; text-decoration:line-through}
+.slider-2-btn {padding:35px 0 0 0}
+.slider-2-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+.slider-2-btn a+a {margin-left:20px}
+.slider-2-btn span {display:inline-block; vertical-align:middle; font-weight:600; font-size:17px; line-height:17px; letter-spacing:0; margin:0 0 0 20px; color:#fff}
+
+.slider-3-content {float:left; padding:224px 0 0 52px}
+.slider-3-title {line-height:0}
+.slider-3-text {color:#070606; font-size:25px; line-height:36px; letter-spacing:0; padding:19px 0 0 0}
+.slider-3-text p {margin:0; padding:0}
+.slider-3-price {padding:29px 0 0 0}
+.slider-3-price::after {content:""; display:block; clear:both}
+.slider-3-price-value {float:left; font-size:39px; line-height:39px; font-weight:600; letter-spacing:0; color:#fe8900}
+.slider-3-price-value span {font-size:23px}
+.slider-3-price-old {float:left; margin:16px 0 0 10px; font-size:21px; line-height:21px; letter-spacing:0; color:#b8b7b4; text-decoration:line-through}
+.slider-3-price-start {float:left; margin:16px 0 0 16px; font-size:17px; line-height:21px; letter-spacing:0; font-weight:600; color:#000}
+.slider-3-btn {padding:9px 0 0 0}
+.slider-3-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+
+.slider .slick-dots {margin:0; padding:0; list-style:none; text-align:center; font-size:0; line-height:0; letter-spacing:-1px; position:absolute; left:0; right:0; bottom:30px}
+.slider .slick-dots li {margin:0 0 0 13px; padding:0; display:inline-block; vertical-align:top; position:relative}
+.slider .slick-dots li:first-child {margin:0}
+.slider .slick-dots li button {display:block; position:relative; width:32px; height:4px; border-radius:2px; border:none; background:#707070; margin:0; padding:0; outline:none; -webkit-appearance:none; cursor:pointer; font-size:0; line-height:0; text-indent:100px; transition:all 0.2s}
+.slider .slick-dots li.slick-active button {background:#ffc813}
+
+.slider-preview {padding:54px 0 58px 0}
+.slider-preview-inner {margin:0 -7px}
+.slider-preview-inner::after {content:""; display:block; clear:both}
+.slider-preview-item {float:left; width:33.33%; padding:0 7px}
+.slider-preview-item a {display:block; text-decoration:none; height:220px; color:#fff; position:relative; border:1px solid rgba(113, 218, 247, 0.8); border-radius:8px; box-shadow:0 0 10px rgba(71, 135, 206, 0.45); background:no-repeat center}
+.slider-preview-item-photo {position:absolute; left:15px; top:50%; line-height:0; transform:translateY(-50%)}
+.slider-preview-item-text {position:absolute; right:10px; top:50%; line-height:0; transform:translateY(-50%); font-weight:600; font-size:17px; line-height:27px}
+
+.eco {height:635px; background:url(../images/eco.jpg) no-repeat center top}
+.eco-inner {margin:0 0 0 250px; width:452px; text-align:center; color:#000; padding:261px 0 0 0}
+.eco-title {font-size:45px; line-height:45px; font-weight:600}
+.eco-text {font-size:23px; line-height:23px; font-weight:500; padding:13px 0 0 0}
+
+.series {padding:166px 0 0 0; background:url(../images/series.png) no-repeat left top}
+
+.series-main {height:467px; position:relative; border-radius:12px; overflow:hidden}
+.series-main-bg {position:absolute; left:0; top:0; right:0; bottom:0; background:url(../images/series-main.jpg) no-repeat center; border-radius:12px}
+.series-main-content {position:relative; float:right; width:531px}
+.series-main-title {padding:92px 0 0 0; line-height:0}
+.series-main-list {color:#fff; font-size:21px; line-height:28px; padding:17px 0 46px 0}
+.series-main-list p {margin:0; padding:0}
+.series-price {color:#ffc915; font-weight:bold; font-size:25px; line-height:38px; letter-spacing:0}
+.series-price span {display:inline-block; vertical-align:top; height:40px; border:1px solid #ffc915; border-radius:20px; padding:0 16px}
+.series-gift {font-size:17px; line-height:27px; color:#ffc915; padding:0 0 0 29px; background:url(../images/series-gift.png) no-repeat 3px top; margin:7px 0 0 0}
+.series-others {margin:22px -7px 0 -7px}
+.series-others::after {content:""; display:block; clear:both}
+.series-other {float:left; width:50%; padding:0 7px}
+.series-other-inner {height:536px; color:#fff; border:1px solid rgba(113, 218, 247, 0.8); border-radius:8px; box-shadow:0 0 10px rgba(71, 135, 206, 0.45); position:relative; overflow:hidden}
+.series-other-bg {position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; border-radius:6px}
+.series-other-container {position:relative; padding:349px 0 0 24px}
+.series-other-title {line-height:0}
+.series-other-subtitle {font-size:20px; line-height:20px; padding:16px 0 19px 0}
+
+.new-products {margin:68px 0 0 0; background:url(../images/new-products.png) no-repeat right top; padding:134px 0 0 0}
+.new-product {margin:61px 0 0 0; height:490px; color:#fff; border:1px solid rgba(113, 218, 247, 0.8); border-radius:8px; box-shadow:0 0 10px rgba(71, 135, 206, 0.45); position:relative; overflow:hidden}
+.new-product-main {margin:0; height:547px; border:none; box-shadow:none}
+.new-product-bg {position:absolute; left:0; top:0; right:0; bottom:0; background:no-repeat center; border-radius:6px}
+.new-product-container {float:right; width:517px; position:relative}
+
+.new-product-1-title {line-height:0; padding:101px 0 0 0}
+.new-product-1-subtitle {font-weight:500; font-size:33px; line-height:33px; color:#fff; padding:12px 0 0 0}
+.new-product-2-title {line-height:0; padding:95px 0 0 0}
+.new-product-2-subtitle {font-weight:500; font-size:33px; line-height:33px; color:#fff; padding:12px 0 0 0}
+.new-product-3-title {line-height:0; padding:71px 0 0 0}
+.new-product-3-subtitle {font-weight:500; font-size:23px; line-height:23px; color:#fff; padding:15px 0 0 0}
+.new-product-props {font-size:16px; line-height:27px; color:#e7e7e7; padding:27px 0 0 0}
+.new-product-prop {margin:10px 0 0 0}
+.new-product-prop:first-child {margin:0}
+.new-product-prop span {display:inline-block; vertical-align:top; padding:0 15px; height:29px; border:1px solid rgba(71, 145, 164, 0.58)}
+.new-product-start {font-weight:600; font-size:17px; line-height:17px; color:#ffc915; padding:35px 0 0 0}
+.new-product-btn {padding:48px 0 0 0}
+.new-product-start+.new-product-btn {padding:17px 0 0 0}
+.new-product-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+.new-product-btn a+a {margin:0 0 0 15px}
+
+.other {margin:142px 0 0 0; background:url(../images/other.png) no-repeat center top; text-align:center; padding:46px 0 102px 0}
+.other-title {font-weight:600; font-size:57px; line-height:57px; color:#fff}
+.other-link {padding:51px 0 0 0}
+.other-link a {display:block; margin:0 auto; width:46px; height:46px; background:#ffc915 url(../images/other-link.png) no-repeat center; border-radius:50%}
+
+.remarks {background:#fff; color:#758089; padding:74px 0 95px 0}
+.remarks-title {font-size:25px; line-height:29px; font-weight:500}
+.remarks-text {font-size:17px; line-height:29px; padding:15px 0 0 0}
