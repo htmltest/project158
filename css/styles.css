@@ -51,6 +51,7 @@ a {color:#ffc915}
 .slider-1-title {line-height:0}
 .slider-1-title-mobile {display:none}
 .slider-1-subtitle {font-size:33px; line-height:33px; letter-spacing:0; padding:21px 0 0 0}
+.slider-1-subtitle-mobile {display:none}
 .slider-1-gift-title {color:#ffc915; font-weight:600; font-size:38px; line-height:38px; letter-spacing:0; padding:50px 0 0 0}
 .slider-1-gift-price {color:#ffc915; font-weight:bold; font-size:25px; line-height:38px; letter-spacing:0; padding:18px 0 0 0}
 .slider-1-gift-price span {display:inline-block; vertical-align:top; height:40px; border:1px solid #ffc915; border-radius:20px; padding:0 16px}
@@ -59,7 +60,10 @@ a {color:#ffc915}
     .slider-1-content {float:none; padding:426px 0 0 0}
     .slider-1-title {display:none}
     .slider-1-title-mobile {display:block; line-height:0}
-    .slider-1-subtitle {font-size:25px; line-height:40px; font-weight:300; padding:28px 0 0 0; max-width:300px}
+    .slider-1-subtitle {display:none}
+    .slider-1-subtitle-mobile {display:block; font-size:25px; line-height:40px; font-weight:300; padding:28px 0 0 0; letter-spacing:0}
+    .slider-1-subtitle-mobile p {margin:0; padding:0}
+    .slider-1-subtitle-mobile p::before {content:"• "}
     .slider-1-gift-title {font-size:33px; line-height:33px; padding:41px 0 0 0; text-align:center}
     .slider-1-gift-price {font-size:42px; line-height:86px; padding:26px 0 0 0}
     .slider-1-gift-price span {display:block; text-align:center; height:88px; padding:0; border-radius:44px}
