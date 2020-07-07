@@ -27,7 +27,8 @@ a {color:#ffc915}
 .header {background:#fff; padding:24px 0 19px 0}
 .header-logo {float:left; line-height:0}
 .header-sep {float:left; margin:0 0 0 23px; width:1px; height:38px; background:#a9a9a9}
-.header-dns {float:left; line-height:0; margin:6px 0 0 23px}
+.header-dns {float:left; line-height:0; margin:0 0 0 23px}
+.header-dns img {height:38px}
 
 @media screen and (max-width:1157px) {
     .header {padding:20px 0 21px 0; margin-right:-40px}
@@ -77,14 +78,14 @@ a {color:#ffc915}
 .slider-2-text-mobile {display:none}
 .slider-2-price {padding:10px 0 0 0}
 .slider-2-price::after {content:""; display:block; clear:both}
-.slider-2-price-props {float:left; width:164px; height:33px; margin:3px 0 0 0; border:1px solid #ffc813; text-align:center; font-size:25px; line-height:31px; letter-spacing:0; color:#ffc813}
+.slider-2-price-props {float:left; width:164px; height:33px; margin:3px 0 0 0; border:1px solid #ffc813; text-align:center; font-size:25px; line-height:31px; letter-spacing:0; color:#ffc813; border-radius:16px}
 .slider-2-price-value {float:left; margin:0 0 0 15px; font-size:39px; line-height:39px; font-weight:600; letter-spacing:0; color:#ffc813}
 .slider-2-price-value span {font-size:23px}
 .slider-2-price-old {float:left; margin:16px 0 0 10px; font-size:21px; line-height:21px; letter-spacing:0; color:#b8b7b4; text-decoration:line-through}
-.slider-2-start-mobile {display:none}
-.slider-2-btn {padding:35px 0 0 0}
+.slider-2-start {font-size:21px; line-height:21px; letter-spacing:0; font-weight:600; color:#fff; padding:31px 0 0 0}
+.slider-2-start+.slider-2-start {padding:10px 0 0 0}
+.slider-2-btn {padding:37px 0 0 0}
 .slider-2-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
-.slider-2-btn span {display:inline-block; vertical-align:middle; font-weight:600; font-size:17px; line-height:17px; letter-spacing:0; margin:0 0 0 20px; color:#fff}
 
 @media screen and (max-width:1157px) {
     .slider-2-content {float:none; padding:323px 0 0 0}
@@ -97,8 +98,9 @@ a {color:#ffc915}
     .slider-2-price-props {margin:0}
     .slider-2-price-value {font-size:33px; line-height:33px; margin:0 0 0 29px}
     .slider-2-price-old {float:right; margin:10px 33px 0 0}
-    .slider-2-start-mobile {display:block; text-align:center; font-size:25px; line-height:25px; letter-spacing:0; font-weight:600; color:#fff; padding:38px 0 0 0}
-    .slider-2-btn {padding:24px 0 0 0; text-align:center}
+    .slider-2-start {font-size:25px; line-height:25px; text-align:center; padding:23px 0 0 0}
+    .slider-2-start+.slider-2-start {padding:10px 0 0 0}
+    .slider-2-btn {padding:26px 0 0 0; text-align:center}
     .slider-2-btn a {width:308px; height:55px; line-height:55px; border-radius:27.5px; padding:0}
     .slider-2-btn span {display:none}
 }
@@ -187,14 +189,14 @@ a {color:#ffc915}
 .series-main-content {position:relative; float:right; width:531px}
 .series-main-title {padding:92px 0 0 0; line-height:0}
 .series-main-title-mobile {display:none}
-.series-main-list {color:#fff; font-size:21px; line-height:28px; padding:17px 0 46px 0}
+.series-main-list {color:#fff; font-size:21px; line-height:28px; padding:17px 0 32px 0}
 .series-main-list p {margin:0; padding:0}
 .series-main-list p::before {content:"• "}
 .series-price {color:#ffc915; font-weight:bold; font-size:25px; line-height:38px; letter-spacing:0}
 .series-price span {display:inline-block; vertical-align:top; height:40px; border:1px solid #ffc915; border-radius:20px; padding:0 16px}
-.series-gift {font-size:17px; line-height:27px; color:#ffc915; padding:0 0 0 29px; background:url(../images/series-gift.png) no-repeat 3px top; margin:7px 0 0 0}
-.series-btn {padding:25px 0 0 0}
-.series-main .series-btn {padding:36px 0 0 0}
+.series-gift {font-size:21px; line-height:31px; color:#ffc915; padding:6px 0 0 36px; background:url(../images/series-gift.png) no-repeat left top; margin:11px 0 0 0}
+.series-btn {padding:12px 0 0 0}
+.series-main .series-btn {padding:23px 0 0 0}
 .series-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
 .series-others {margin:22px -7px 0 -7px}
 .series-others::after {content:""; display:block; clear:both}
@@ -220,7 +222,7 @@ a {color:#ffc915}
     .series-main-list p::before {position:absolute; left:0; top:0}
     .series-price {font-size:33px; line-height:56px}
     .series-price span {height:58px; border-radius:29px; padding:0 32px}
-    .series-gift {font-size:25px; line-height:33px; padding:0 0 0 49px; background:url(../images/series-gift-mobile.png) no-repeat left center; margin:15px 0 0 0}
+    .series-gift {font-size:25px; line-height:33px; padding:0 0 0 55px; background:url(../images/series-gift-mobile.png) no-repeat left center; margin:15px 0 0 0}
     .series-btn {padding:36px 0 0 0}
     .series-btn a {width:308px; height:55px; line-height:55px; border-radius:27.5px; padding:0; text-align:center}
     .series-others {margin:38px auto 0 auto; width:388px}
@@ -266,6 +268,7 @@ a {color:#ffc915}
 .new-product-prop:first-child {margin:0}
 .new-product-prop span {display:inline-block; vertical-align:top; padding:0 15px; height:29px; border:1px solid rgba(71, 145, 164, 0.58)}
 .new-product-start {font-weight:600; font-size:17px; line-height:17px; color:#ffc915; padding:35px 0 0 0}
+.new-product-start+.new-product-start {padding:10px 0 0 0}
 .new-product-btn {padding:48px 0 0 0}
 .new-product-start+.new-product-btn {padding:17px 0 0 0}
 .new-product-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
@@ -283,7 +286,7 @@ a {color:#ffc915}
     .new-product-prop:first-child {margin:0}
     .new-product-prop::before {content:"• "; position:absolute; left:0; top:0}
     .new-product-prop span {display:inline; padding:0; height:auto; border:none}
-    .new-product-start {font-size:25px; line-height:25px; padding:32px 0 0 0; text-align:center}
+    .new-product-start {font-size:25px; line-height:25px; padding:32px 0 0 0; text-align:center; margin:0 -10px}
     .new-product-btn {padding:48px 0 0 0}
     .new-product-start+.new-product-btn {padding:33px 0 0 0}
     .new-product-btn a {display:block; margin:0 auto; width:308px; height:55px; line-height:55px; border-radius:27.5px; padding:0; text-align:center}
