@@ -27,8 +27,7 @@ a {color:#ffc915}
 .header {background:#fff; padding:24px 0 19px 0}
 .header-logo {float:left; line-height:0}
 .header-sep {float:left; margin:0 0 0 23px; width:1px; height:38px; background:#a9a9a9}
-.header-dns {float:left; line-height:0; margin:0 0 0 23px}
-.header-dns img {height:38px}
+.header-dns {float:left; line-height:0; margin:6px 0 0 23px}
 
 @media screen and (max-width:1157px) {
     .header {padding:20px 0 21px 0; margin-right:-40px}
