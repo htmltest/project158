@@ -84,7 +84,8 @@ a {color:#ffc915}
 .slider-2-start {font-size:21px; line-height:21px; letter-spacing:0; font-weight:600; color:#fff; padding:31px 0 0 0}
 .slider-2-start+.slider-2-start {padding:10px 0 0 0}
 .slider-2-btn {padding:37px 0 0 0}
-.slider-2-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+.slider-2-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px; transition:all 0.2s}
+.slider-2-btn a:hover {background:#ffecaf}
 
 @media screen and (max-width:1157px) {
     .slider-2-content {float:none; padding:323px 0 0 0}
@@ -116,7 +117,8 @@ a {color:#ffc915}
 .slider-3-price-old {float:left; margin:16px 0 0 10px; font-size:21px; line-height:21px; letter-spacing:0; color:#b8b7b4; text-decoration:line-through}
 .slider-3-price-start {float:left; margin:16px 0 0 16px; font-size:17px; line-height:21px; letter-spacing:0; font-weight:600; color:#000}
 .slider-3-btn {padding:9px 0 0 0}
-.slider-3-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+.slider-3-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px; transition:all 0.2s}
+.slider-3-btn a:hover {background:#ffecaf}
 
 @media screen and (max-width:1157px) {
     .slider-3-content {float:none; padding:401px 0 0 0}
@@ -196,7 +198,8 @@ a {color:#ffc915}
 .series-gift {font-size:21px; line-height:31px; color:#ffc915; padding:6px 0 0 36px; background:url(../images/series-gift.png) no-repeat left top; margin:11px 0 0 0}
 .series-btn {padding:12px 0 0 0}
 .series-main .series-btn {padding:23px 0 0 0}
-.series-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+.series-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px; transition:all 0.2s}
+.series-btn a:hover {background:#ffecaf}
 .series-others {margin:22px -7px 0 -7px}
 .series-others::after {content:""; display:block; clear:both}
 .series-other {float:left; width:50%; padding:0 7px}
@@ -270,7 +273,8 @@ a {color:#ffc915}
 .new-product-start+.new-product-start {padding:10px 0 0 0}
 .new-product-btn {padding:48px 0 0 0}
 .new-product-start+.new-product-btn {padding:17px 0 0 0}
-.new-product-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px}
+.new-product-btn a {display:inline-block; vertical-align:middle; font-weight:600; font-size:25px; line-height:35px; letter-spacing:0; height:35px; padding:0 22px; text-decoration:none; color:#000; background:#ffc915; border-radius:17px; transition:all 0.2s}
+.new-product-btn a:hover {background:#ffecaf}
 .new-product-btn a+a {margin:0 0 0 15px}
 
 @media screen and (max-width:1157px) {
@@ -305,7 +309,8 @@ a {color:#ffc915}
 .other {margin:142px 0 0 0; background:url(../images/other.png) no-repeat center top; text-align:center; padding:46px 0 102px 0}
 .other-title {font-weight:600; font-size:57px; line-height:57px; color:#fff}
 .other-link {padding:51px 0 0 0}
-.other-link a {display:block; margin:0 auto; width:46px; height:46px; background:#ffc915 url(../images/other-link.png) no-repeat center; border-radius:50%}
+.other-link a {display:block; margin:0 auto; width:46px; height:46px; background:#ffc915 url(../images/other-link.png) no-repeat center; border-radius:50%; transition:all 0.2s}
+.other-link a:hover {background-color:#ffecaf}
 
 @media screen and (max-width:1157px) {
     .other {margin:0; background:none; padding:37px 0 108px 0}
